@@ -13,3 +13,15 @@ Nato sem se lotil poimenovanja ekip. Poiskal sem vse unikatne domače ekipe iz t
 <p align="center">
   <img src="https://github.com/krivecluka/PR21LK/blob/main/img/ekipe.PNG"/>
 </p>
+
+Nato sem primerjal ID tekem iz obeh tabel. Ugotovil sem, da ima tabela akcije zabeleženih 5 tekem manj kot tabela tekme. Zaradi potencialnih bodočih težav sem te tekme izrisal tudi iz druge tabele. S tem sem se lahko lotil povezovanja posameznega igralca z ekipo. Tu se je pojavila dilema, kako reševati težavo z osamelci. Igralci, ki imajo manj kot tri tekme igrajo na domačih tleh, saj gre ponavadi za igralce mlajših kategorij, ki so dobili priložnost za igro pred domačimi navijači. Take igralce sem pripisal domači ekipi, čeprav to morda ni v vseh primerih pravilno. Igralcem, ki so zaigrali na dveh različnih tekmah s štirimi različnimi ekipami ni mogoče natančno pripisati ekipe, saj so po vsej verjetnosti od leta 2019 do danes ekipo najmanj enkrat zamenjali. Pripisal sem jih kar k zadnji domači ekipi, saj je najverjetneje, da je to njihov aktualni klub. Na koncu sem vsako akcijo povezal z ekipo, kar mi bo kasneje prišlo prav. Posodobljena tabela izgleda takole:
+
+<p align="center">
+  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/akcije.PNG"/>
+</p>
+
+Za lažjo predstavo sem izrisal tudi graf pogostosti pojavitve posamezne ekipe v tabeli akcije. Ugotovil sem, da imajo nekatere ekipe več zabeleženih akcij kot druge. To lahko pomeni več stvari. Najbolj očitna je ta, da sta 2 ekipi izpadli v nižjo ligo, ter v letošnji sezoni več nista članici prve rokometne lige. Drug razlog je lahko tehnične narave pri beleženju in shranjevanju podatkov. Nimajo vse ekipe istih pogojev za spremljanje statistike tekme. Nekatere ekipe si ne morejo privoščiti opreme, spet druge kadra. Tretji razlog je aktivnost in uspešnost ekip. Bolj kot je ekipa aktivna na igrišču, več akcij je zabeleženih, bolj je tudi uspešna. To bo tudi eno izmed vprašanj, na katere nameravam odgovoriti v svoji analizi. 
+
+<p align="center">
+  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/akcije_barh.png"/>
+</p>
