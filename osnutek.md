@@ -25,3 +25,14 @@ Za lažjo predstavo sem izrisal tudi graf pogostosti pojavitve posamezne ekipe v
 <p align="center">
   <img src="https://github.com/krivecluka/PR21LK/blob/main/img/akcije_barh.png"/>
 </p>
+
+Eden glavnih ciljev moje naloge je torej poiskati povezavo med številom akcij ter uspešnostjo ekipe v zadnji treh sezonah. Zanima me tudi razlog, zakaj so neuspešne ekipe neuspešne in ali se da kaj popraviti. Pri tem vprašanju sem bom osredotočil predvsem na težave s koncentracijo. Poskušal bom najti ekipo, ki dela največ neizsiljenih, tehničnih napak. Zanima me tudi nasplošno, v kateri minuti tekme se najbolj pogosto pojavljajo napake v celotni ligi.
+
+Namen imam tudi gručiti ekipe, ki so si po uspešnosti podobne. Zanimalo me bo pet vidikov. Kako učinkovit napad ima ekipa, kako učinkovito obrambo, koliko točk zbere na tekmo, koliko napak dela ter fairplay ekipe.
+
+Zelo zanimiv atribut tabele je tudi pozicija strelov. Na tekmah se beleži iz katere pozicije igralec strelja proti golu, v kateri del gola je žoga letela, ter ali je bil strel uspešen. Zaradi tehnilnih težav nekaterij ekip, je teh podatkov malo, a dovolj, da bom lahko naredil napovedni model, ki bo napovedal, kakšna verjetnost obstaja, da bo iz določene pozicije dosešen zadetek. Za lažjo predstavo, kaj podatki pomenijo, sem dobil tudi sliko oštevilčenih pozicij strelov:
+
+
+<p align="center">
+  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/pozicije%20strelov.png"/>
+</p>
