@@ -34,5 +34,5 @@ Zelo zanimiv atribut tabele je tudi pozicija strelov. Na tekmah se beleži iz ka
 
 
 <p align="center">
-  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/pozicije_strelov.png"/>
+  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/pozicije%20strelov.png"/>
 </p>
