@@ -38,5 +38,7 @@ Zelo zanimiv atribut tabele je tudi pozicija strelov. Na tekmah se beleži iz ka
 </p>
 
 <p align="center">
-  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/ekipe.PNG](https://github.com/krivecluka/PR21LK/blob/main/img/gif.gif"/>
+  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/gif.gif"/>
 </p>
+
+![Alt Text](https://github.com/krivecluka/PR21LK/blob/main/img/gif.gif))
