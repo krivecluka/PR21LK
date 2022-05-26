@@ -26,9 +26,8 @@ Za lažjo predstavo sem izrisal tudi graf pogostosti pojavitve posamezne ekipe v
   <img src="https://github.com/krivecluka/PR21LK/blob/main/img/akcije_barh.png"/>
 </p>
 
-Eden glavnih ciljev moje naloge je torej poiskati povezavo med številom akcij ter uspešnostjo ekipe v zadnji treh sezonah. Zanima me tudi razlog, zakaj so neuspešne ekipe neuspešne in ali se da kaj popraviti. Pri tem vprašanju sem bom osredotočil predvsem na težave s koncentracijo. Poskušal bom najti ekipo, ki dela največ neizsiljenih, tehničnih napak. Zanima me tudi nasplošno, v kateri minuti tekme se najbolj pogosto pojavljajo napake v celotni ligi.
-
-Namen imam tudi gručiti ekipe, ki so si po uspešnosti podobne. Zanimalo me bo pet vidikov. Kako učinkovit napad ima ekipa, kako učinkovito obrambo, koliko točk zbere na tekmo, koliko napak dela ter fairplay ekipe.
+Eden glavnih ciljev moje naloge je torej poiskati povezavo med številom akcij ter uspešnostjo ekipe v zadnji treh sezonah. 
+Namen imam tudi gručiti ekipe, ki so si po uspešnosti podobne. Zanimali me bodo trije vidiki. Kako učinkovit napad ima ekipa, kako učinkovito obrambo, ter koliko napak dela.
 
 Zelo zanimiv atribut tabele je tudi pozicija strelov. Na tekmah se beleži iz katere pozicije igralec strelja proti golu, v kateri del gola je žoga letela, ter ali je bil strel uspešen. Zaradi tehničnih težav nekaterih ekip, je teh podatkov malo, a dovolj, da bom lahko naredil napovedni model, ki bo napovedal, kakšna verjetnost obstaja, da bo iz določene pozicije dosešen zadetek. Za lažjo predstavo, kaj podatki pomenijo, sem dobil tudi sliko oštevilčenih pozicij strelov:
 
@@ -45,3 +44,13 @@ V SKUPINI 1 sta kluba iz Maribora in Ljubljane. Maribor v zadnjih letih ni več 
 V SKUPINI 2 so klubi iz dna lestvice. Tako Izola, kot Koper sta nekonsistentna kluba, ki skozi leta prehajata med prvo in drugo ligo. Tudi letos igra Izola v drugi ligi, kjer ji je za las ušel preboj nazaj med elito. Tudi RK Slovenj Gradec je klub, ki zadnja leta ne dosega več vrhunskih rezultatov.
 SKUPINA 3 je največja, zato je težko povezati vse ekipe po karakteristiki, a povezava med njimi vseeno obstaja. Gre za skupino, ki se že nekaj let izmenjuje na mestih od 2.- 6. v prvi slovenski rokometni ligi. Najuspešnejši ekipi med njimi sta Ribnica in Velenje, ki sta si karakteristično najbolj podobni. RK Gorenje Velenje je slovit slovenski rokometni klub, ki že vrsto let kot edini kljubuje Celju. Ekipi iz Novega mesta in Dobove sta kluba iz sredine lestvice. Podobna sta si po geografskem položaju, finančni moči in uspešnosti v preteklih sezonah. Oba sta pred približno 10. leti prešla iz druge lige. Oba dosegata konsistentne rezultate iz leta v leto. Par Loka in Trebnje sta prav tako že vrsto let v člana prve lige. Dosegata kanček boljše rezultate kot prejšni par.
 Zadnja, SKUPINA 4 je največje presenečenje. RK Celje Pivovarna Laško je absolutni osamelec prve slovenske rokometne lige. Presenetljivo je to, da si po statistiki skupino deli z Ormožem. Celje je daleč najbolj uspešna ekipa v slovenski ligi. Redke so sezone, kadar Celje ni prvak. Predvidljivo bi bilo, da bi si lastilo svojo skupino. Ormož je presenečenje. Gre za dobro ekipo, ki je iz leta v leto boljša. Uspešnost podatkov lahko pripišemo borbeni in disciplinirani igri, ki pa ne prinese vedno rezultatov. O tem dejstvu priča tudi položaj na lestvici, ki niti približno ni tako visok kot položaj soseda v skupini 4.
+
+<h2>Korelacija med uspešnostjo ekip in številom akcij </h2>
+
+Eno izmed vprašanj, ki se mi je porajalo tekom izdelave te naloge je bilo poiskati povezavo med številom akcij ter uspešnostjo ekip. KOrelacijo sem izračunal s pomočjo Pearsonove formule. Vrednost korelacije je 0.47, kar pomeni da je korelacija pozitivna a šibka.
+
+<p align="center">
+  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/korelacija.png"/>
+</p>
+
+Na grafu je vidna šibka korelacija, kljub temu, da so logotipi klubov na prvi pogled pometani. Lep primer uspešnosti ekipe in število zabeleženih akcij sta ekipi na samem vrhu, ter tista iz dna lestvice. Med tem, ko je RK Celje v desnem kotu zgoraj, kar pomeni zelo uspešno in nadpovprečno veliko zabeleženih akcij, je ekipa iz Izole v levem kotu spodaj, kar pomeni slabši uspeh, ter malo zabeleženih akcij. Njuni uspehi na lestvici lige govorijo podobno zgodbo.
