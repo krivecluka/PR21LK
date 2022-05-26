@@ -54,3 +54,15 @@ Eno izmed vprašanj, ki se mi je porajalo tekom izdelave te naloge je bilo poisk
 </p>
 
 Na grafu je vidna šibka korelacija, kljub temu, da so logotipi klubov na prvi pogled pometani. Lep primer uspešnosti ekipe in število zabeleženih akcij sta ekipi na samem vrhu, ter tista iz dna lestvice. Med tem, ko je RK Celje v desnem kotu zgoraj, kar pomeni zelo uspešno in nadpovprečno veliko zabeleženih akcij, je ekipa iz Izole v levem kotu spodaj, kar pomeni slabši uspeh, ter malo zabeleženih akcij. Njuni uspehi na lestvici lige govorijo podobno zgodbo.
+
+
+<h2>Napoved uspešnosti strela </h2>
+
+Za pravilno napoved sem uporabil klasifikacijski napovedni algoritem naključni gozd. Množicu sem razdelil na učno (75%) in testno (25%). Model sem zgradil uspešno z točnostjo napovedi 75%. Poskusil sem tudi z algoritmom SVM in odločitvenim drevesom, a sta rezultata malenkost slabša. Podatke sem razdelil tri atribute in klasifikacijski razred. Prvi atribut je ID ekipe, saj bomo upoštevali uspešnost vratarja posamezne ekipe. Ker se vratarji med sabo razlikujejo po kvaliteti, se mi je zdel to koristen podatek. Teža atributa pri napovedi rezultatov je znašala okoli 30%. Drugi atribut je bila pozicija začetka meta. Teža je znašala dobrih 20%, kar nam pove, da je bolj pomembno kdo je branil strel oz. v kateri kot gola je bil strel vržen. Tretji atribut se je izkazal za najpomembnejšega in sicer kot gola, kamor je bil strel vržen. Teža je bila dobrih 45%. Kot klasifikacijski razred je nastopala uspešnost meta. Če je strelec dosegel gol je bila zabelčežena vrednos ZADETEK, sicer pa OBRAMBA.
+
+Ker želimo kot klub napredovati in biti bolj uspešni, ciljamo na vrh. Tam sedi RK Celje. Za prikaz rezultatov sem se torej odločil, da preizkusimo celjskega vratarja. Vprašanje je kam streljati, da bo verjetnost zadetka največja. Analiziral sem strele iz vsake pozicije rokometnega igrišča in dobil koristne informacije, ki mi lahko pomagajo pri napredovanju in izboljšajo kvalitete meta.
+
+<p align="center">
+  <img src="https://github.com/krivecluka/PR21LK/blob/main/img/streli_GIF.gif"/>
+</p>
+
