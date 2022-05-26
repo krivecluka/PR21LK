@@ -1,4 +1,4 @@
-# Vmesno poročilo
+# Končno poročilo
 
 Odločil sem se, da bom delal analizo ekip Prve moške rokometne lige Slovenije. Na podlagi pridobljenih podatkov iz Rokometne zveze Slovenije bom obdelal sezone 2019/2020, 2020/2021 ter tekočo sezono 2021/2022, do 20. kroga. Najbolj me bodo zanimale ekipe, njihova uspešnost v ligi ter podobnosti.
 
